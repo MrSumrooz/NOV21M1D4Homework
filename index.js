@@ -92,18 +92,28 @@ boundary(8)
 
 /* WRITE YOUR ANSWER HERE */
 
-let strivestring = "Strive school is best for learning "
+let strivestring = "Striveschool is best for learning "
 
-let strivify = function(strive , strivestring){
+let strivify = function(strive){
+
+    let striveindex = strivestring.indexOf("Strive")
+    console.log(`'Strive' starts at index ` + striveindex)
+
+    let extractedName = strivestring.slice(striveindex, striveindex + 7)
+    console.log(extractedName)
 
 
-    if (  ){
 
-    }
+if (strive === striveindex[0]){
+    console.log(extractedName)
 
-
+}else{
+    console.log(strive+ " "+strivestring)
+}
 
 }
+
+strivify("Strive")
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
@@ -111,6 +121,27 @@ let strivify = function(strive , strivestring){
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let check3and7 = function(int){
+
+    if (int % 3 == 0  ){
+
+        console.log(" Multiplyer of 3")
+    }
+    else if(int % 7 == 0){
+        console.log(" Multiplyer of 7")
+
+    }
+    else{
+        console.log(" Multiplyer of None")
+
+    }
+
+
+
+
+}
+check3and7(22)
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
@@ -136,6 +167,3 @@ let strivify = function(strive , strivestring){
 
 /* WRITE YOUR ANSWER HERE */
 
-/* WHEN YOU ARE FINISHED
- Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
-*/
