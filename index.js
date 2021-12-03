@@ -29,7 +29,7 @@ let crazySum = function(int1,int2){
 let result = int1 + int2
 
     if (int1 === int2){
-        
+
         console.log(result*3)
 
     }else{
@@ -48,11 +48,42 @@ crazySum(10,12)
 
 /* WRITE YOUR ANSWER HERE */
 
+const fixNum = 19;
+
+const crazyDiff = function(int1,fixNum){
+
+            result = int1 - fixNum
+
+            if (result >19){
+
+                console.log(result*3)
+            }
+
+}
+
+crazySum(100,fixNum)
+
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+
+let boundary = function(n){
+
+if( (n >= 20  && n <= 100) || n === 400 ){
+
+    console.log(true)
+}
+else{
+    console.log("Value is less than 20 :- ")
+}
+} 
+
+
+boundary(8)
+
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
@@ -60,6 +91,19 @@ crazySum(10,12)
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let strivestring = "Strive school is best for learning "
+
+let strivify = function(strive , strivestring){
+
+
+    if (  ){
+
+    }
+
+
+
+}
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
